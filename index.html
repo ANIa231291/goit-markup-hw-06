@@ -20,13 +20,64 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body-main">
-    <!--HEDER-->
+    <!---------------------------------HEDER------------------------------------------------->
     <header class="header-main">
       <div class="container container-heder">
         <nav class="main-navigation">
           <a class="main-logo main-navi logo link" href="./index.html"
             >Web<span class="span-main">Studio</span></a
           >
+          <div class="button-burger">
+            <button type="button" class="button-burger-heder">
+              <svg class="button-burger-link" width="24" height="24">
+                <use
+                  href="./images/icons.svg#icon-heroicons-solid_menu-1"
+                ></use>
+              </svg>
+            </button>
+          </div>
+          <!-- <ul class="menu list">
+            <li class="menu-item menu-item-erst">
+              <a
+                class="menu-gap link link-studio main-navi-link"
+                href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="link main-link main-navi-link" href="">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link main-link main-navi-link" href="">Contacts</a>
+            </li>
+          </ul> -->
+        </nav>
+
+        <!-- <address class="main-adress-navi">
+          <ul class="menu-adress list">
+            <li class="menu-adress-item">
+              <a class="link main-link-adress" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+
+            <li class="menu-adress-item">
+              <a class="link main-link-adress" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address> -->
+      </div>
+      <div class="mobil-menu-header">
+        /*------------------ is-open --^------------------*/
+        <div class="mobil-container-header">
+          <button type="button" class="mobil-btn-header">
+            <svg class="mobil-close-header" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+            </svg>
+          </button>
+
           <ul class="menu list">
             <li class="menu-item menu-item-erst">
               <a
@@ -42,27 +93,58 @@
               <a class="link main-link main-navi-link" href="">Contacts</a>
             </li>
           </ul>
-        </nav>
+          <address class="main-adress-navi">
+            <ul class="menu-adress list">
+              <li class="menu-adress-item">
+                <a
+                  class="link main-link-adress"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
 
-        <address class="main-adress-navi">
-          <ul class="menu-adress list">
-            <li class="menu-adress-item">
-              <a class="link main-link-adress" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <li class="menu-adress-item">
+                <a class="link main-link-adress" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list social-list-center list link">
+            <li class="social-list-item">
+              <a href="#" class="social-list-link footer-link">
+                <svg class="footer-social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
             </li>
-
-            <li class="menu-adress-item">
-              <a class="link main-link-adress" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="social-list-item">
+              <a href="#" class="social-list-link footer-link">
+                <svg class="footer-social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Group"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" class="social-list-link footer-link">
+                <svg class="footer-social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" class="social-list-link footer-link">
+                <svg class="footer-social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </header>
     <main>
-      <!----------------------------SECTION 1---------------------------------------------->
+      <!-------------------------------SECTION 1---------------------------------------------->
       <section class="container-first main-section-one">
         <div class="container">
           <h1 class="title-efectiwe">Effective Solutions for Your Business</h1>
@@ -76,49 +158,49 @@
           <h2 class="visually-hidden">Out benefits</h2>
           <ul class="menu-wrap menu-gap-next menu list">
             <li class="menu-item-next menu-item">
-              <div class="icon-container">
+              <!-- <div class="icon-container">
                 <svg width="64" height="64" class="benefits-social-icon">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
-              </div>
+              </div> -->
               <h3 class="three-title">Strategy</h3>
-              <p class="paragraph">
+              <p class="paragraph-three">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
             <li class="menu-item-next menu-item">
-              <div class="icon-container">
+              <!-- <div class="icon-container">
                 <svg width="64" height="64" class="benefits-social-icon">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
-              </div>
+              </div> -->
               <h3 class="three-title">Punctuality</h3>
-              <p class="paragraph">
+              <p class="paragraph-three">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
             <li class="menu-item-next menu-item">
-              <div class="icon-container">
+              <!-- <div class="icon-container">
                 <svg width="64" height="64" class="benefits-social-icon">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
-              </div>
+              </div> -->
               <h3 class="three-title">Diligence</h3>
-              <p class="paragraph">
+              <p class="paragraph-three">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
             <li class="menu-item-next menu-item">
-              <div class="icon-container">
+              <!-- <div class="icon-container">
                 <svg width="64" height="64" class="benefits-social-icon">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
-              </div>
+              </div> -->
               <h3 class="three-title">Technologies</h3>
-              <p class="paragraph">
+              <p class="paragraph-three">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -126,7 +208,7 @@
           </ul>
         </div>
       </section>
-      <!--------------------Section3------------------------------->
+      <!-----------------------------Section3------------------------------------------------>
       <section class="section-three-main">
         <div class="container container-three">
           <h2 class="title-two">Our Team</h2>
@@ -311,11 +393,11 @@
         </div>
       </section>
 
-      <!-----------------------------Section4--------------------------------->
+      <!-----------------------------Section4----------------------------------------------->
       <section class="section-four-main">
         <div class="container container-four">
           <h2 class="title-portfolio">Our Portfolio</h2>
-          <ul class="menu menu-list-stylish menu-wrap list">
+          <ul class="menu menu-list-stylish menu-wrap-portfolio list">
             <li class="menu-item-new">
               <div class="container-img">
                 <img
@@ -332,8 +414,8 @@
                 </p>
               </div>
               <div class="name-portfolio-foto">
-                <h3 class="three-title">Banking App</h3>
-                <p class="paragraph">App</p>
+                <h3 class="four-title">Banking App</h3>
+                <p class="paragraph-four">App</p>
               </div>
             </li>
             <li class="menu-item-new">
@@ -353,8 +435,8 @@
               </div>
 
               <div class="name-portfolio-foto">
-                <h3 class="three-title">Cashless Payment</h3>
-                <p class="paragraph">Marketing</p>
+                <h3 class="four-title">Cashless Payment</h3>
+                <p class="paragraph-four">Marketing</p>
               </div>
             </li>
             <li class="menu-item-new">
@@ -374,8 +456,8 @@
               </div>
 
               <div class="name-portfolio-foto">
-                <h3 class="three-title">Meditation App</h3>
-                <p class="paragraph">App</p>
+                <h3 class="four-title">Meditation App</h3>
+                <p class="paragraph-four">App</p>
               </div>
             </li>
             <li class="menu-item-new">
@@ -395,8 +477,8 @@
               </div>
 
               <div class="name-portfolio-foto">
-                <h3 class="three-title">Taxi Service</h3>
-                <p class="paragraph">Marketing</p>
+                <h3 class="four-title">Taxi Service</h3>
+                <p class="paragraph-four">Marketing</p>
               </div>
             </li>
             <li class="menu-item-new">
@@ -416,8 +498,8 @@
               </div>
 
               <div class="name-portfolio-foto">
-                <h3 class="three-title">Screen Illustrations</h3>
-                <p class="paragraph">Design</p>
+                <h3 class="four-title">Screen Illustrations</h3>
+                <p class="paragraph-four">Design</p>
               </div>
             </li>
             <li class="menu-item-new">
@@ -437,8 +519,8 @@
               </div>
 
               <div class="name-portfolio-foto">
-                <h3 class="three-title">Online Courses</h3>
-                <p class="paragraph">Marketing</p>
+                <h3 class="four-title">Online Courses</h3>
+                <p class="paragraph-four">Marketing</p>
               </div>
             </li>
           </ul>
@@ -512,7 +594,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       /*----- is-open----^--*/
 
       <div class="modal">
